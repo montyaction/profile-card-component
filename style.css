@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/* Define standard variables and values for website */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.8rem;
+  background-color: #19a2ae;
+  position: relative;
+}
+
+body .left-side, body .right-side {
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+body .left-side {
+  width: 50%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  top: 0px;
+  right: 0px;
+}
+
+body .right-side {
+  width: 50%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  top: 0px;
+  left: 0px;
+}
+
+body .wrapper {
+  width: 330px;
+  height: 385px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .card {
+  width: 320px;
+  height: 340px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 1px 10px 1px #000;
+          box-shadow: 0px 1px 10px 1px #000;
+  background: white;
+}
+
+body .wrapper .card .card-top {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+body .wrapper .card .card-top img {
+  display: block;
+  width: 100%;
+}
+
+body .wrapper .card .card-top .card-img {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -98%);
+          transform: translate(-50%, -98%);
+}
+
+body .wrapper .card .card-top .card-img img {
+  display: block;
+  width: 100%;
+}
+
+body .wrapper .card .card-bottom {
+  height: 70px;
+  margin-top: 60px;
+}
+
+body .wrapper .card .card-bottom h4 {
+  font-weight: 700;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+
+body .wrapper .card .card-bottom h4 span {
+  color: #786a81;
+}
+
+body .wrapper .card .card-bottom p {
+  font-size: 15px;
+  letter-spacing: .5px;
+  color: #786a81;
+  width: 100%;
+  font-weight: 400;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper .card .card-footer {
+  height: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-top: 1px dotted #786a81;
+}
+
+body .wrapper .card .card-footer .box {
+  display: block;
+}
+
+body .wrapper .card .card-footer .box h4 {
+  width: 100%;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper .card .card-footer .box p {
+  color: #786a81;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .wrapper .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body .wrapper .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
